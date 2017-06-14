@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import json
 
 job = {}
-f = open('job.json', 'a')
+f = open('job.json', 'a')--
 
 html_doc = open('parserHTML.html', 'r')
 soup = BeautifulSoup(html_doc, 'html.parser')
